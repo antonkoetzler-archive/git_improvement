@@ -28,5 +28,11 @@
 - For keeping copies of a certain branch, useful to test differences between your changes for example
 - `git worktree add <branch> <folder to place>`
 9. **Detached head**
+- Basically for viewing a certain commit, you cannot make changes in a detached head
+- `git checkout <commit hash>`
 10. **Git stash**
+- Saving changes that, for example, you may not push
+- `git stash`: Stash this current segment
+- `git stash list`
+- `git stash apply <stash name>`
 11. **Actions**
