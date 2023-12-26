@@ -1,3 +1,6 @@
+// Author: Anton Louis Koetzler-Faust
+// 2023
+
 #include <stdio.h>
 #include "add_two_numbers.c"
 
