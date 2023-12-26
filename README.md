@@ -11,7 +11,12 @@
 3. Rebasing & Interactive Bebasing
 - See `Rebasing.md`
 4. Cherry picking
+- Brings only the files that were changed in a specific commit (not all files)
+- `git cherry-pick <commit hash>`
+- Overwrite your changes `git cherry-pick -n <commit hash>`
 5. Git hooks
+- Code that is ran before `git commit -m "..."`
+- `touch .git/hooks/<Filename>.sh`
 6. Using submodules
 7. Refloging
 8. Git worktrees
