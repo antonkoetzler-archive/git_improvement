@@ -17,6 +17,7 @@
 5. Git hooks
 - Code that is ran before `git commit -m "..."`
 - `touch .git/hooks/<Filename>.sh`
+- `chmod -x .git/hooks/<Filename>.sh`
 6. Using submodules
 7. Refloging
 8. Git worktrees
