@@ -26,7 +26,7 @@
 - See `Reflogging.MD`
 8. **Git worktrees**
 - For keeping copies of a certain branch, useful to test differences between your changes for example
-- `git worktree add -b <branch> <folder to place>`
+- `git worktree add <branch> <folder to place>`
 - `git worktree checkout <branch>`
 9. **Detached head**
 10. **Git stash**
