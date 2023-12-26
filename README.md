@@ -36,3 +36,5 @@
 - `git stash list`
 - `git stash apply <stash name>`
 11. **Actions**
+- Automated actions that will be ran once you push anything, great for automating unit tests for example
+- See `.github/workflows/run_my_program.yml`

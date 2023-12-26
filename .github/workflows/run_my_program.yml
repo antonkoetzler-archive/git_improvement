@@ -1,0 +1,21 @@
+name: Run my C program
+
+# More specific way to setup an action (for specific branches)
+# on:
+#   push:
+#     branches:
+#       - main
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    # Grab repository code
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Compile and test
+        run: gcc my_c_program.c; ./a.out
