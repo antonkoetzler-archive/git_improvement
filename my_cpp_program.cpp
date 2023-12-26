@@ -1,6 +1,6 @@
 #include <iostream>
 
 int main() {
-  print("This is my C++ program! Keep it safe and don't lose the code");
+  std::cout << "This is my C++ program, please don't hack it :(" << std::endl;
   return 0;
 }
