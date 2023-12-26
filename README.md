@@ -19,7 +19,11 @@
 - `touch .git/hooks/<Filename>.sh`
 - `chmod -x .git/hooks/<Filename>.sh`
 6. **Using submodules**
+- Embedding other repositories within your repository
+- `git submodule add https://github.com/Myoro/MyoroPlayer.git`
+- `git submodule update --init --recursive`
 7. **Refloging**
 8. **Git worktrees**
 9. **Detached head**
 10. **Git stash**
+11. **Actions**

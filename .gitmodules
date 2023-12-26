@@ -1,0 +1,3 @@
+[submodule "MyoroPlayer"]
+	path = MyoroPlayer
+	url = https://github.com/Myoro/MyoroPlayer.git
